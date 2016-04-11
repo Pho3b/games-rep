@@ -1,0 +1,16 @@
+﻿Build started 11/04/2016 18:13:17.
+     1>Project "P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Pong\Pong.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         P:\Programmi\Visual Studio Community 2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>p:\desktop\progetti programmazione\c++\build\pong\pong\main.cpp(147): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>p:\desktop\progetti programmazione\c++\build\pong\pong\main.cpp(172): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>p:\desktop\progetti programmazione\c++\build\pong\pong\main.cpp(177): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+       Link:
+         P:\Programmi\Visual Studio Community 2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Debug\Pong.exe" /INCREMENTAL /NOLOGO "sfml-system-d.lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Debug\Pong.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Debug\Pong.lib" /MACHINE:X86 Debug\Main.obj
+         Pong.vcxproj -> P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Debug\Pong.exe
+     1>Done Building Project "P:\DESKTOP\Progetti Programmazione\C++\BUILD\Pong\Pong\Pong.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17
