@@ -1,7 +1,7 @@
 #include<iostream>
 #include<SFML\Graphics.hpp>
 #include<SFML\Audio.hpp>
-#include<sstream> //Mi permette di convertire un intero in una stringa 
+#include<sstream> //Using it to convert integers to string
 
 
 int main()
@@ -65,7 +65,7 @@ int main()
 	sf::RectangleShape background;
 	background.setSize(sf::Vector2f(800, 600));
 	background.setPosition(0, 0);
-	background.setTexture(&texBackground); //Aggiungiamo un & davanti alla texture perchè è un puntatore
+	background.setTexture(&texBackground);
 
 	//Paddle1
 	sf::RectangleShape pad1;
@@ -92,9 +92,9 @@ int main()
 		return 1;
 	}
 
-	sf::Text score; //Creo un testo 
+	sf::Text score; 
 	score.setFont(font);
-	score.setCharacterSize(30); //Grandezza caratteri testo
+	score.setCharacterSize(30); 
 	score.setColor(sf::Color::Red);
 	score.setPosition(350, 10);
 	score.setString("0 : 0");
@@ -217,9 +217,9 @@ int main()
 		window.draw(background);
 		
 		//Score
-		std::stringstream text; //Creo un oggetto di tipo stringstream
-		text << pad1Score << " : " << pad2Score; //Dico cosa deve contenere l oggetto
-		score.setString(text.str()); //Cambio la stringa del valore score creato in precedenza
+		std::stringstream text; 
+		text << pad1Score << " : " << pad2Score; 
+		score.setString(text.str());
 
 		window.draw(score);
 
